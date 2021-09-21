@@ -9,8 +9,9 @@
     "git-push": "git add . && git commit -m 'update' && git push"
   },
   "devDependencies": {
-    "vite": "latest",
-    "gh-pages": "latest"
+    "critical": "^4.0.1",
+    "gh-pages": "latest",
+    "vite": "latest"
   },
   "keywords": [],
   "author": "",
