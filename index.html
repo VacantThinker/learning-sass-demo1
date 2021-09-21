@@ -8,7 +8,7 @@
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preload" onload="this.rel='stylesheet'" as="style" href="index.css">
 </head>
-<body style="visibility: hidden" onload="document.body.style.visibility='visible'">
+<body style="visibility: hidden">
 
 <header class="container">
     <nav class="row">
@@ -29,5 +29,18 @@
     </nav>
 </header>
 
+<script defer>
+    // Helper function
+    let domReady = (cb) => {
+        document.readyState === 'interactive' || document.readyState === 'complete'
+            ? cb()
+            : document.addEventListener('DOMContentLoaded', cb);
+    };
+
+    domReady(() => {
+        // Display body when DOM is loaded
+        document.body.style.visibility = 'visible';
+    });
+</script>
 </body>
 </html>
