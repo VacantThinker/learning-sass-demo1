@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  display: grid;
+  grid-template: 1fr/1fr;
+  place-items: center;
+  max-width: 800px;
+}
+
+header {
+  width: 100%;
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "learning-sass-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "yarnU": "yarn install",
+    "git-push": "git add . && git commit -m 'update' && git push"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "gh-pages": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
