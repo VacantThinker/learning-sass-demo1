@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/VacantThinker/learning-sass-demo1",
   "name": "learning-sass-demo1",
   "version": "1.0.0",
   "description": "",
@@ -6,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "yarnU": "yarn install",
-    "git-push": "git add . && git commit -m 'update' && git push"
+    "git-push": "git add . && git commit -m 'update' && git push",
+    "gh-deploy": "node index.js && gh-pages -d dist"
   },
   "devDependencies": {
     "critical": "^4.0.1",

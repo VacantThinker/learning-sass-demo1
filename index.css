@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #6c757d;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template: 1fr/1fr;
+  place-items: center;
+  max-width: 800px;
+}
+
+header {
+  width: 100%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul li {
+  height: 30px;
+  line-height: 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: red;
+}
 
 /*# sourceMappingURL=index.css.map */
